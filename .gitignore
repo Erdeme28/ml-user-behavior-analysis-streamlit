@@ -1,0 +1,18 @@
+# Virtual environment
+.venv/
+.venv1/
+
+# IDE
+.idea/
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Outputs (optional – vezi mai jos)
+# outputs/
+
+# OS files
+.DS_Store
+Thumbs.db

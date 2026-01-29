@@ -1,0 +1,12 @@
+=== CLASSIFICATION SUMMARY ===
+- LogisticRegression + SMOTE: accuracy=0.7381, f1=0.7994, cm=[[346, 115], [304, 835]]
+- LogisticRegression + NearMiss: accuracy=0.7556, f1=0.8255, cm=[[284, 177], [214, 925]]
+- KNN (scaled) baseline: accuracy=0.7438, f1=0.8277, cm=[[205, 256], [154, 985]]
+- KNN (scaled) + SMOTE: accuracy=0.6850, f1=0.7575, cm=[[309, 152], [352, 787]]
+- DecisionTree baseline: accuracy=0.7100, f1=0.7981, cm=[[219, 242], [222, 917]]
+- RandomForest baseline: accuracy=0.7581, f1=0.8392, cm=[[203, 258], [129, 1010]]
+
+=== REGRESSION SUMMARY ===
+- LinearRegression: MAE=444.5315, RMSE=552.6494, R2=0.9521
+- KNNRegressor (scaled): MAE=555.5443, RMSE=691.7946, R2=0.9249
+- RandomForestRegressor: MAE=471.9337, RMSE=586.5653, R2=0.9460

@@ -1,0 +1,2 @@
+model,sampling,n_samples,accuracy,f1
+KNN,SMOTE,8000,0.685,0.7574590952839269
