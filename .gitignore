@@ -1,18 +1,19 @@
-# Virtual environment
+# Virtual environments
 .venv/
 .venv1/
 
-# IDE
+# IDEs
 .idea/
 .vscode/
 
 # Python cache
 __pycache__/
 *.pyc
-
-# Outputs (optional – vezi mai jos)
-# outputs/
+*.pyo
 
 # OS files
 .DS_Store
 Thumbs.db
+
+# Optional outputs (comentat dacă vrei să le păstrezi)
+# outputs/
