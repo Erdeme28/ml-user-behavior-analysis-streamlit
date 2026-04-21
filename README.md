@@ -45,7 +45,7 @@ See `requirements.txt` for exact pinned dependencies used by the project.
 
    ```bash
    python -m venv .venv
-   .venv\Scripts\Activate.ps1  ;# PowerShell usage on Windows
+   .venv\Scripts\Activate.ps1  
    ```
 
 2. Install dependencies:
